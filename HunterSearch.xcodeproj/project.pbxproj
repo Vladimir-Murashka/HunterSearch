@@ -13,6 +13,7 @@
 		22A06E13285B826F00956B06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A06E11285B826F00956B06 /* Main.storyboard */; };
 		22A06E15285B827200956B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A06E14285B827200956B06 /* Assets.xcassets */; };
 		22A06E18285B827200956B06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A06E16285B827200956B06 /* LaunchScreen.storyboard */; };
+		22A06E20285B84E100956B06 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A06E1F285B84E100956B06 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		22A06E14285B827200956B06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22A06E17285B827200956B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22A06E19285B827200956B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A06E1F285B84E100956B06 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				22A06E0D285B826F00956B06 /* SceneDelegate.swift */,
 				22A06E0F285B826F00956B06 /* ViewController.swift */,
 				22A06E11285B826F00956B06 /* Main.storyboard */,
+				22A06E1F285B84E100956B06 /* MapViewController.swift */,
 				22A06E14285B827200956B06 /* Assets.xcassets */,
 				22A06E16285B827200956B06 /* LaunchScreen.storyboard */,
 				22A06E19285B827200956B06 /* Info.plist */,
@@ -141,6 +144,7 @@
 				22A06E10285B826F00956B06 /* ViewController.swift in Sources */,
 				22A06E0C285B826F00956B06 /* AppDelegate.swift in Sources */,
 				22A06E0E285B826F00956B06 /* SceneDelegate.swift in Sources */,
+				22A06E20285B84E100956B06 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +328,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
