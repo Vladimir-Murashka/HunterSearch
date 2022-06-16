@@ -55,6 +55,7 @@ class MapViewController: UIViewController {
         @unknown default:
             fatalError()
         }
+        
     }
     
     // Всплывающее оповещения
